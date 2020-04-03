@@ -20,5 +20,7 @@ class String
     array.each do |sentence|
     if sentence.end_with(".,?,!") == true
       new <<array
+    end
+    new.count
   end
 end
