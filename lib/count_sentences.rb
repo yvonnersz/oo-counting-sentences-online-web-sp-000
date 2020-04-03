@@ -18,7 +18,7 @@ class String
     new = []
     array = self.split(/[.?!]/)
     array.each do |sentence|
-    if sentence.end_with(".,?,!") == true
+    if sentence.end_with?(".,?,!") == true
       new <<array
     end
     end
