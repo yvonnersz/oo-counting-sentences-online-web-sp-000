@@ -19,7 +19,7 @@ class String
     array = self.split(/[.?!]/)
     array.each do |sentence|
     if sentence.end_with?(".,?,!") == true
-      new <<array
+      new << sentence
     end
     end
     new.count
