@@ -17,6 +17,5 @@ class String
   def count_sentences
     array = self.split(/[.?!]/)
     array.reject {|sentence| sentence == ""}.count
-    new.count
   end
 end
