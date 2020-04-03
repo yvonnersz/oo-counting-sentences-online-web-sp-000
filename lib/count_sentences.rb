@@ -23,4 +23,5 @@ class String
     end
     end
     new.count
+  end
 end
