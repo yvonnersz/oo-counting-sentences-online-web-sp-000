@@ -21,6 +21,7 @@ class String
     if sentence.end_with(".,?,!") == true
       new <<array
     end
+    end
     new.count
   end
 end
